@@ -8,7 +8,6 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor: 0
-  color: 0
   colorbox: 0
   comment: 0
   config: 0
@@ -20,13 +19,11 @@ module:
   editor: 0
   field: 0
   field_group: 0
-  field_ui: 0
   file: 0
   filter: 0
   fitvids: 0
   galeria: 0
   galleryformatter: 0
-  history: 0
   honeypot: 0
   image: 0
   juicebox: 0
