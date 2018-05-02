@@ -1,0 +1,72 @@
+.mm-page, .mm-wrapper_background body {
+  background-color: #333E47;
+}
+
+.anarow img {
+  border-radius: 50%;
+}
+
+.proyecto {
+  background: #D49206;
+} 
+
+.ana {
+  background: #5D7A82;
+} 
+
+.anarow {
+  background: #698991;
+}
+
+.social {
+padding: 0px 0px 10px 0px;
+}
+
+ul.social {
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  cursor: default;
+}
+
+  ul.social li {
+    display: inline-block;
+    padding: 0em 0.30em;
+
+  }
+
+    ul.social li span {
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul.social li a {
+      background: #333E47;
+      -moz-transition: opacity 0.25s ease-in-out;
+      -webkit-transition: opacity 0.25s ease-in-out;
+      -ms-transition: opacity 0.25s ease-in-out;
+      transition: opacity 0.25s ease-in-out;
+      font-family: FontAwesome;
+      font-size:25px;
+      opacity: 0.15;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      color: #f2f1f1;
+      text-decoration: none;
+    }
+
+      ul.social li a:before {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+      }
+
+    ul.social li:hover a {
+      opacity: 0.5;
+    }

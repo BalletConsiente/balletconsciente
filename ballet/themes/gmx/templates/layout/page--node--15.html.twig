@@ -1,0 +1,111 @@
+<div id="page-wrapper">
+  <div id="page">
+
+
+  <!--Start: Branding and Menu -->
+<div id="stick">
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+       <div class="branding">
+        {% if page.header %}
+          <div class="col-xs-6 col-md-3">
+            {{ page.header }}
+          </div>
+        {% endif %}
+        <!-- Navigation -->
+        {% if page.menu %}
+          <div class="col-xs-6 col-md-9">
+            {{ page.menu }} 
+          </div>
+        {% endif %}
+        <!--End Navigation -->
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- Start content -->
+    <div class="container-fluid contenido ">
+      <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="contenidorow">
+            <div>{{page.contactotitle}}</div>
+              <div class="container-fluid">
+                <div class="row">   
+                      <div class="col-md-8">
+                          {{ page.contactoform }}
+                      </div>
+                      <div class="col-md-4">
+                            {{ page.contacto }}
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!---End content -->
+
+      <!--- Start Equipo -->
+      {% if page.equipo %}
+        <div class="container-fluid equipo ">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12">
+                <div class="equiporow">
+                 {{ page.balleta }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!---End Equipo -->
+
+      <!--- Start Tienda -->
+      {% if page.tienda %}
+        <div class="container-fluid tienda box">
+          <div class="row">
+            <div class="col-md-12">
+                {{ page.tienda }}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!---End Tienda -->
+
+      <!--- Start Galería -->
+      {% if page.galeria %}
+        <div class="container-fluid galeria box">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                {{ page.galeria }}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!---End Galería -->
+
+
+<!--Start: Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        				<ul class="social">
+									<li><a href="https://facebook.com/balletconsciente/" class="icon fa-facebook"><span></span></a></li>
+									<li><a href="https://www.instagram.com/balletconsciente/" class="icon fa-instagram"><span>Twitter</span></a></li>
+								</ul>
+          {{ page.footera }}
+        </div>
+      </div>
+    </div>
+  </div>
+<!--End: Footer -->
+
+  </div>
+</div>

@@ -1,0 +1,109 @@
+<div id="page-wrapper">
+  <div id="page">
+
+
+  <!--Start: Branding and Menu -->
+<div id="stick">
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+       <div class="branding">
+        {% if page.header %}
+          <div class="col-xs-6 col-md-3">
+            {{ page.header }}
+          </div>
+        {% endif %}
+        <!-- Navigation -->
+        {% if page.menu %}
+          <div class="col-xs-6 col-md-9">
+            {{ page.menu }} 
+          </div>
+        {% endif %}
+        <!--End Navigation -->
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!--- Start Proyecto -->
+      {% if page.proyecto %}
+        <div class="container-fluid proyecto">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12">
+                <div class="proyectorow">
+                 {{ page.proyecto }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!---End Proyecto -->
+
+      <!--- Start Leslie -->
+      {% if page.ana %}
+        <div class="container-fluid ana ">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12">
+                <div class="anarow">
+                 {{ page.leslie }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!---End Leslie -->
+
+
+      <!--- Start Javiera -->
+        <div class="container-fluid proyecto">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12">
+                <div class="proyectorow">
+                 {{ page.javiera }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!---End Javiera -->
+
+      <!--- Start Juan -->
+        <div class="container-fluid ana ">
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12">
+                <div class="anarow">
+                 {{ page.juan }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!---End Juan -->
+
+
+<!--Start: Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        				<ul class="social">
+									<li><a href="https://facebook.com/balletconsciente/" class="icon fa-facebook"><span></span></a></li>
+									<li><a href="https://www.instagram.com/balletconsciente/" class="icon fa-instagram"><span>Twitter</span></a></li>
+								</ul>
+          {{ page.footera }}
+        </div>
+      </div>
+    </div>
+  </div>
+<!--End: Footer -->
+
+  </div>
+</div>
