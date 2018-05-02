@@ -1,0 +1,30 @@
+uuid: 90bc9fa3-dcc9-4e34-a8d8-09960dd2368b
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.videos
+  module:
+    - system
+    - views
+  theme:
+    - gmx
+id: views_block__videos_block_2
+theme: gmx
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:videos-block_2'
+settings:
+  id: 'views_block:videos-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /galeria
+    negate: false
+    context_mapping: {  }

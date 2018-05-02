@@ -1,0 +1,128 @@
+uuid: 2a19287e-9efc-4a1d-9b66-a6c1bd4d710f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.equipo.field_ana_manriquez_kajisa
+    - field.field.node.equipo.field_foto_ana_manriquez_kajisa
+    - field.field.node.equipo.field_foto_javiera_iturra_bastia
+    - field.field.node.equipo.field_foto_juan_brunstein
+    - field.field.node.equipo.field_foto_leslie_apablaza_schmi
+    - field.field.node.equipo.field_javiera_iturra_bastias
+    - field.field.node.equipo.field_juan_brunstein
+    - field.field.node.equipo.field_leslie_apablaza_schmidt
+    - field.field.node.equipo.field_nombre_ana
+    - field.field.node.equipo.field_nombre_javiera
+    - field.field.node.equipo.field_nombre_juan
+    - field.field.node.equipo.field_nombre_leslie
+    - node.type.equipo
+  module:
+    - image
+    - text
+    - user
+id: node.equipo.default
+targetEntityType: node
+bundle: equipo
+mode: default
+content:
+  field_ana_manriquez_kajisa:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_foto_ana_manriquez_kajisa:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_foto_javiera_iturra_bastia:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_foto_juan_brunstein:
+    weight: 108
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_foto_leslie_apablaza_schmi:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_javiera_iturra_bastias:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_juan_brunstein:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_leslie_apablaza_schmidt:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_nombre_ana:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nombre_javiera:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nombre_juan:
+    weight: 112
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_nombre_leslie:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

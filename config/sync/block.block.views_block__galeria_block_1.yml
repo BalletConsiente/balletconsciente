@@ -1,0 +1,32 @@
+uuid: d25ea834-b4c4-4fdd-8c83-947ff702e951
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.galeria
+  module:
+    - system
+    - views
+  theme:
+    - gmx
+_core:
+  default_config_hash: WSBkdeXmWVNVglQ20hMLrelleF60qiXwgtmG7BT26uM
+id: views_block__galeria_block_1
+theme: gmx
+region: auto_hidden_block
+weight: -11
+provider: null
+plugin: 'views_block:galeria-block_1'
+settings:
+  id: 'views_block:galeria-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /galeria
+    negate: false
+    context_mapping: {  }

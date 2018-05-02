@@ -1,0 +1,10 @@
+uuid: d245c094-7971-4881-8bc6-206f7f7d3409
+langcode: es
+status: true
+dependencies:
+  module:
+    - tour
+id: tour.token
+label: Comodín
+targetEntityType: tour
+cache: true

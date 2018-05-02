@@ -1,0 +1,24 @@
+uuid: 3dd55cd0-9950-4510-9a24-7b0ef4a0b285
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.galeria
+_core:
+  default_config_hash: SdZqOlBwfbLPIbUtY6s0808xuLaChrXmb1J25raEy2I
+id: node.galeria.promote
+field_name: promote
+entity_type: node
+bundle: galeria
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

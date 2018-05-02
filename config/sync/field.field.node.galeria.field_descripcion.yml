@@ -1,0 +1,21 @@
+uuid: cb01c7a3-b1ea-4c65-b937-2f0e4979cf71
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.galeria
+  module:
+    - text
+id: node.galeria.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: galeria
+label: Descripción
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

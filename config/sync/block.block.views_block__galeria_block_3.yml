@@ -1,0 +1,32 @@
+uuid: 025bb4a2-07db-408e-937b-705814bf5158
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.galeria
+  module:
+    - node
+    - views
+  theme:
+    - gmx
+id: views_block__galeria_block_3
+theme: gmx
+region: galerianodo
+weight: 0
+provider: null
+plugin: 'views_block:galeria-block_3'
+settings:
+  id: 'views_block:galeria-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      galeria: galeria
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

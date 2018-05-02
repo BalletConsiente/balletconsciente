@@ -1,0 +1,24 @@
+uuid: 060086f0-32be-437b-81ec-1563ca970d57
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.equipo
+  module:
+    - views
+  theme:
+    - gmx
+id: views_block__equipo_block_4
+theme: gmx
+region: juan
+weight: 0
+provider: null
+plugin: 'views_block:equipo-block_4'
+settings:
+  id: 'views_block:equipo-block_4'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

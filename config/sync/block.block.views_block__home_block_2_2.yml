@@ -1,0 +1,30 @@
+uuid: 9453550f-9d47-4125-97c7-80e8f066ae28
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.home
+  module:
+    - system
+    - views
+  theme:
+    - gmx
+id: views_block__home_block_2_2
+theme: gmx
+region: balleta
+weight: 0
+provider: null
+plugin: 'views_block:home-block_2'
+settings:
+  id: 'views_block:home-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/galeria\r\n/equipo"
+    negate: true
+    context_mapping: {  }

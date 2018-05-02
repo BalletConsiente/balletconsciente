@@ -1,0 +1,25 @@
+uuid: 9203ca3d-e131-4ca6-8c2d-3dbaa776be78
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.galeria.field_imagen_principal
+    - field.field.node.galeria.field_imagenes
+    - node.type.galeria
+  module:
+    - user
+_core:
+  default_config_hash: BGHY27YO_J7ame5yy1l9-0Tddeb0FaY5-gF2sMr5Mqk
+id: node.galeria.teaser
+targetEntityType: node
+bundle: galeria
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_imagen_principal: true
+  field_imagenes: true
+  langcode: true

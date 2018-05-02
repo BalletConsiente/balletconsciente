@@ -1,0 +1,281 @@
+uuid: 2825a655-1fcf-47af-8e6f-1daaa23c6433
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.home.field_ana
+    - field.field.node.home.field_ballet_a
+    - field.field.node.home.field_ballet_b
+    - field.field.node.home.field_ballet_c
+    - field.field.node.home.field_descripcion_ballet_a
+    - field.field.node.home.field_descripcion_ballet_b
+    - field.field.node.home.field_descripcion_ballet_c
+    - field.field.node.home.field_image
+    - field.field.node.home.field_pie_de_pagina
+    - field.field.node.home.field_titulo_ballet_a
+    - field.field.node.home.field_titulo_ballet_b
+    - field.field.node.home.field_titulo_ballet_c
+    - image.style.thumbnail
+    - node.type.home
+  module:
+    - field_group
+    - image
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_ana_manriquez_k:
+      children:
+        - group_fotografia
+        - group_descripcion
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: 'Ana Manriquez K'
+    group_fotografia:
+      children:
+        - field_image
+      parent_name: group_ana_manriquez_k
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Fotografía
+    group_descripcion:
+      children:
+        - field_ana
+      parent_name: group_ana_manriquez_k
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Descripción
+    group_ballet:
+      children:
+        - group_ballet_a
+        - group_ballet_b
+        - group_ballet_c
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Ballet
+    group_ballet_a:
+      children:
+        - field_titulo_ballet_a
+        - field_ballet_a
+        - field_descripcion_ballet_a
+      parent_name: group_ballet
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Ballet A'
+    group_ballet_b:
+      children:
+        - field_titulo_ballet_b
+        - field_ballet_b
+        - field_descripcion_ballet_b
+      parent_name: group_ballet
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Ballet B'
+    group_ballet_c:
+      children:
+        - field_titulo_ballet_c
+        - field_ballet_c
+        - field_descripcion_ballet_c
+      parent_name: group_ballet
+      weight: 23
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: 'Ballet C'
+id: node.home.default
+targetEntityType: node
+bundle: home
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ana:
+    weight: 22
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_ballet_a:
+    weight: 22
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ballet_b:
+    weight: 129
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_ballet_c:
+    weight: 130
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_descripcion_ballet_a:
+    weight: 23
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_descripcion_ballet_b:
+    weight: 130
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_descripcion_ballet_c:
+    weight: 131
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_image:
+    weight: 21
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_pie_de_pagina:
+    weight: 132
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_ballet_a:
+    weight: 21
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_ballet_b:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titulo_ballet_c:
+    weight: 129
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: cb29cd3e-6f54-4070-8198-f981e942bca7
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.equipo
+  module:
+    - ctools
+    - views
+  theme:
+    - gmx
+id: views_block__equipo_block_1
+theme: gmx
+region: proyecto
+weight: -13
+provider: null
+plugin: 'views_block:equipo-block_1'
+settings:
+  id: 'views_block:equipo-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      equipo: equipo
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

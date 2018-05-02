@@ -1,0 +1,19 @@
+uuid: 5b894ec7-3394-4dab-aede-a8a076152f75
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.ana
+  module:
+    - user
+id: node.ana.teaser
+targetEntityType: node
+bundle: ana
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true
