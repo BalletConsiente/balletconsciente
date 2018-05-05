@@ -79,34 +79,6 @@
   content: "\f09a";
 }
 
-/* ul.social li a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-family: FontAwesome;
-  border-radius: 50%;
-  line-height: 40px;
-  text-align: center;
-  color: #f2f1f1;
-  text-decoration: none;
-}
-
-ul.social li a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding-top: 2px;
-  background: #AEAC16;
-  border-radius: 50%;
-  line-height: 40px;
-  text-align: center;
-  color: #333131;
-}
-
-ul.social .icon {
-  font-size: 1em;
-  border: none;
-} */
 
 /* START: CLEARFIX */
 /* IMPORTANTE: Inserta un "clearfix" en todos los Wrapper divs de Bricks con la clase grupo */
@@ -404,30 +376,6 @@ ul.links.inline li{
 }
 
 
-
-.social-media a.google-plus{
-  background: #de2020;
-}
-
-.social-media a.twitter{
-  background: #29C5F6;
-}
-
-.social-media a.linkedin{
-  background: #069;
-}
-
-.social-media a.pinterest{
-  background: #C61118;
-}
-
-.social-media a.rss{
-  background: #FF6D00;
-}
-
-.social-media a:hover{
-  opacity: .6;
-}
 
 /*FORM*/
 

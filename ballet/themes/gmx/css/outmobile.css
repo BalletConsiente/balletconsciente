@@ -301,12 +301,7 @@
     padding: 10px 20px 90px 20px;
     text-align: center;
   }
-  
-  /*
-  .rs { width: 100%; overflow: hidden; }
-  .rs ul { list-style: none; position: relative; float: left; display: block; left: 47%; }
-  .rs ul li { position: relative; float: left; display: block; right: 50%; }
-  */
+
   
   .redsocial {
     padding: 40px 0;
@@ -383,19 +378,6 @@
     }
   
   }
-  
-  @media only screen and (min-width: 450px) {
-    .estilokvrol {
-      background: url(../images/kvrol.jpg);
-      color: #fff;
-      padding: 30px 0 60px 0;
-      background-size: cover;
-      position: relative;
-    }
-  
-  }
-
-
 
   h1 {
     font-size: 50px;
@@ -438,11 +420,6 @@
       margin-top: 150px;
       margin-bottom: 20px;
     }
-
-
-
-
-
 
 
 
