@@ -11,6 +11,25 @@
         padding: 0px 0px;
         margin: 0;
       }
+      .views-slideshow-controls-bottom div {
+        margin: 0;
+        padding: 0;
+        display: inline;
+        text-align: center;
+      }
+
+      .views-slideshow-controls-bottom img {
+        width: 88px;
+      }
+
+      .proyectorow h2 {
+        color: #fff;
+      }
+      
+      .tituloequipo {
+        color: #fff;
+        padding-top: 20px;
+      }
 
       .proyectorow {
         background: #FAC046;
@@ -75,7 +94,7 @@
     nav#block-navegacionprincipal {
         display: none;
     }
-
+ 
 
 
     .region-menu {
