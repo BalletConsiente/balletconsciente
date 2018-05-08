@@ -9,7 +9,7 @@
 # Ignore sensitive information
 /ballet/sites/*/settings.php
 /ballet/sites/*/settings.local.php
-
+/private/
 # Ignore Drupal's file directory
 /ballet/sites/*/files/
 
