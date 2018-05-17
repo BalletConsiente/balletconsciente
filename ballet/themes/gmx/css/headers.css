@@ -19,7 +19,8 @@
 }
 
 .social {
-padding: 0px 0px 10px 0px;
+  float: center;
+  padding: 0px 0px 10px 0px;
 }
 
 ul.social {

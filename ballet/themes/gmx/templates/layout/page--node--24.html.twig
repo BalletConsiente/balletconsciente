@@ -26,6 +26,7 @@
   </div>
 </div>
 
+
       <!--- Start content -->
       {% if page.content %}
         <div class="container-fluid contenido ">
@@ -33,7 +34,8 @@
             <div class="container">
               <div class="col-md-12">
                 <div class="contenidorow">
-              {{ page.panel }}
+                  {{ page.messages }}
+                  {{ page.panel }}
                 </div>
               </div>
             </div>
@@ -42,19 +44,23 @@
       {% endif %}
       <!---End content -->
 
-
 <!--Start: Footer -->
   <div class="footer">
     <div class="container">
-      <div class="row">
         <div class="col-md-12">
-        				<ul class="social">
+            <div class="logogobierno">
+              {{ page.logogobierno }}
+            </div>
+            <div>
+              {{ page.footera }}
+            </div>
+            <div class="social">
+                <ul class="social">
 									<li><a href="https://facebook.com/balletconsciente/" class="icon fa-facebook"><span></span></a></li>
 									<li><a href="https://www.instagram.com/balletconsciente/" class="icon fa-instagram"><span>Twitter</span></a></li>
 								</ul>
-          {{ page.footera }}
+            </div>
         </div>
-      </div>
     </div>
   </div>
 <!--End: Footer -->

@@ -32,14 +32,15 @@
         <div class="container">
           <div class="col-md-12">
             <div class="contenidorow">
-            <div>{{page.contactotitle}}</div>
+                  {{ page.messages }}
+                  {{page.contactotitle}}
               <div class="container-fluid">
-                <div class="row">   
+                <div class="row">
                       <div class="col-md-8">
                           {{ page.contactoform }}
                       </div>
                       <div class="col-md-4">
-                            {{ page.contacto }}
+                          {{ page.contacto }}
                       </div>
                 </div>
               </div>
@@ -94,15 +95,20 @@
 <!--Start: Footer -->
   <div class="footer">
     <div class="container">
-      <div class="row">
         <div class="col-md-12">
-        				<ul class="social">
+            <div class="logogobierno">
+              {{ page.logogobierno }}
+            </div>
+            <div>
+              {{ page.footera }}
+            </div>
+            <div class="social">
+                <ul class="social">
 									<li><a href="https://facebook.com/balletconsciente/" class="icon fa-facebook"><span></span></a></li>
 									<li><a href="https://www.instagram.com/balletconsciente/" class="icon fa-instagram"><span>Twitter</span></a></li>
 								</ul>
-          {{ page.footera }}
+            </div>
         </div>
-      </div>
     </div>
   </div>
 <!--End: Footer -->
