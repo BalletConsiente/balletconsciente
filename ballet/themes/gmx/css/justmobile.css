@@ -147,16 +147,11 @@
     color: #AEAC16;;
 }
 
-
-.responsive-menu-toggle-icon span.label {
-    display: none;
-}
-
   .footer  {
     background: #333E47;
     color: rgba(255, 255, 255, 0.2);
     font-size: 11px;
-    padding: 60px 0 60px 0;
+    padding: 20px 0 40px 0;
     text-align: center;
   }
 

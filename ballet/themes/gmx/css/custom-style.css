@@ -1,5 +1,11 @@
 /* START: MENU ICON RELATED STUFF */
+#block-horizontalmenu {
+  float: right;
+}
 
+.responsive-menu-toggle-icon span.label {
+  display: none;
+}
 .region-menu ul {
   list-style-type: none;
   margin: 1px 0 1px 0;
@@ -8,7 +14,6 @@
 }
 
 .region-menu li {
-  float: left;
   padding: 40px 5px 10px 5px;
 }
 
@@ -40,8 +45,6 @@
   margin-bottom: 0px;
   padding-bottom: 20px;
 }
-
-
 /* END: MENU ICON RELATED STUFF */
 
 /* START: SLIDER OPTIONS */
@@ -72,13 +75,11 @@
   font-size: 20px;
   z-index: 1;
 }
-
 /* END: SLIDER OPTIONS */
 
 .social .fa-facebook-f::before, .fa-facebook::before {
   content: "\f09a";
 }
-
 
 /* START: CLEARFIX */
 /* IMPORTANTE: Inserta un "clearfix" en todos los Wrapper divs de Bricks con la clase grupo */
@@ -88,7 +89,6 @@
   clear: both;
 }
 /* END: CLEARFIX */
-
 
 /* Hace que las imágenes conserven su proporción. Site wide code */
 img {
@@ -101,7 +101,6 @@ img {
   display: inline-block;
   padding: 0px 0px 0px 0px;
 }
-
 
 .site-name a {
   font-size: 36px;
@@ -116,7 +115,6 @@ img {
 
 
 /* ESTILOS DE LOS BRICKS */
-
 .estilo {
   padding: 30px 30px 30px 30px;
 }
@@ -126,7 +124,6 @@ img {
   text-align: right;
 }
 
- 
 /* Redes sociales en el banner principal */
 div.redes {
   text-align: center;
@@ -135,7 +132,6 @@ div.redes {
 
 /* OLD STYLES BEGIN */
 /*Header*/
-
 body {
   background: #333E47;
   font-family: 'Lato', sans-serif;
@@ -146,7 +142,6 @@ body {
   color: #333;
   letter-spacing: 0px;
 }
-
 
 .logo img {
   padding: 0px 0px 0px 10px;
@@ -184,10 +179,9 @@ p {
 }
 
 /* Formulario de contacto del sitio. */
-
 label {
-    display: block;
-    font-weight: 100;
+  display: block;
+  font-weight: 100;
 }
 
 b, strong {
@@ -202,52 +196,49 @@ div.off-canvas-wrapper {
   display: none;
 }
 
-
-a{
+a {
   color: #FFA500;
 }
 
-a:hover{
+a:hover {
   color: #ffc04c;
 }
 
-a.is-active{
+a.is-active {
   color: #FFA500;
 }
 
-ul.links.inline{
+ul.links.inline {
   padding: 0;
 }
 
-ul.links.inline li{
+ul.links.inline li {
   list-style: none;
 }
 
-
 /*Banner*/
-.welcome-banner-text-one{
+.welcome-banner-text-one {
   text-align: center;
   line-height: 160%;
   max-width: 600px;
   padding: 90px 0;
 }
 
-.welcome-banner-text-one h2{
+.welcome-banner-text-one h2 {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
 }
 
-
 /*footerwidget*/
 
-.footerwidget{
+.footerwidget {
   background: #2e2e2e;
   color: #D0D0D0;
   padding: 10px 0;
 }
 
-.footerwidget img.left{
+.footerwidget img.left {
   float: left;
   margin: 10px 10px 0 0;
 }
@@ -286,7 +277,7 @@ ul.links.inline li{
 
 /*Footer menu*/
 
-.footer-menu{
+.footer-menu {
   margin: 0;
   border: 0;
   background: #eee;
@@ -307,15 +298,12 @@ ul.links.inline li{
   padding: 4px 20px 4px 0;
 }
 
-
 /*Credit link*/
-
 .credit-link{
   text-align: left;
 }
 
 /*SOCIAL MEDIA*/
-
 .rs ul li {
     list-style-type: none;
     float: left;
@@ -387,8 +375,6 @@ input[type="submit"]:hover{
   background: #13ADB3;
 }
 
-
-
 .path-frontpage .feed-icon{
   display: none;
 }
@@ -421,7 +407,6 @@ nav h2{
   color: #fff;
 }
 
-
 .main-menu {
   position: relative;
   z-index: 9999;
@@ -450,23 +435,6 @@ nav h2{
 
 .navbar-toggle{
   z-index: 999;
-}
-
-/*breadcrumb*/
-
-.breadcrumb{
-  background: none;
-  padding: 0;
-  margin: 0;
-  border-bottom: 1px solid #eee;
-}
-
-.breadcrumb ul{
-  padding: 0;
-}
-
-.breadcrumb ul li{
-  display: inline-block;
 }
 
 /*search form*/
@@ -523,7 +491,6 @@ nav h2{
 }
 
 /*Contact form*/
-
 .contact-message-feedback-form{
   max-width: 650px;
   margin: 0 auto;
@@ -539,7 +506,6 @@ nav h2{
 }
 
 /*user-login-form*/
-
 .user-login-form,
 .user-form,
 .user-pass{
@@ -566,7 +532,6 @@ nav h2{
 }
 
 /*Maintainance*/
-
 .maintenance-page{
   background: url(../images/maintenance-bg.png) #66CBFF center no-repeat;
   color: #fff;
@@ -608,70 +573,29 @@ nav h2{
   display: none;
 }
 
-
-/*Comment*/
-
-.comment-wrap{
-  overflow: hidden;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #F5F5F5;
-}
-
-.comment-wrap .author-details{
-  float: left;
-  width: 20%;
-}
-
-.comment-wrap .author-comments{
-  padding-left: 5px;
-  float: left;
-  width: 80%;
-}
-
-.comment-submitted{
-  padding: 5px 10px;
-  border: 1px solid #eee;
-  font-size: 12px;
-  margin-bottom: 5px;
-  display: block;
-}
-
-.comment-wrap .author-comments h3{
-  margin-top: 10px;
-}
-
-.comment-wrap .author-comments p{
-  margin-bottom: 10px;
-}
-
 /*links inline*/
-
-ul.links.inline li{
+ul.links.inline li {
   display: inline-block;
   padding-right: 10px;
 }
 
 /*profile*/
-
-.profile > div{
+.profile > div {
   padding-right: 5px;
   display: inline-block;
   vertical-align: top;
 }
 
-.profile h4.label{
+.profile h4.label {
   color: #333;
   display: block;
   text-align: left;
   margin-bottom: 5px;
 }
 
-
-a.has-submenu  {
+a.has-submenu {
 	color: #fff;
 }
-
 
 .sub-arrow {
 	display: none;

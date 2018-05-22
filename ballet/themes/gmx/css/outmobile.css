@@ -5,7 +5,6 @@
     float: left;
   }
 
-
   .main-header {
     background: url(../images/bg.jpg);
     background-size: auto auto;
@@ -49,14 +48,12 @@
     color: #fff;
   }
   
-  
   /* START: estilos */
   
   .branding {
     background: #ccc;
     margin: 0px 60px;
   }
-  
   
   .proyecto {
     background: #D49206;
@@ -82,7 +79,6 @@
     width: 100%;
     padding: 0 100px;
   }
-
 
 .next {
   float: right;
@@ -110,7 +106,6 @@
     margin-left: 64px;
     margin-bottom: 32px;
   }
-
 
   .proyectorow h2 {
     color: #fff;
@@ -156,7 +151,6 @@
   .anapage img {
     float: right;
   }
-
 
   .tituloequipo {
     color: #fff;
@@ -227,11 +221,9 @@
   
   /* END: Tienda */
   
-  
   .menu {
     padding: 1px 0 1px 0;
   }
-  
   
   .about {
     text-align: center;
@@ -252,7 +244,6 @@
     color: #888787;
     text-align: center;
   }
-  
   
   .contacto {
     background: #fff;
@@ -294,7 +285,6 @@
     border-top: solid 1px #333131;
   }
   
-  
   .rs  {
     background: #333131;
     color: #888787;
@@ -302,7 +292,6 @@
     text-align: center;
   }
 
-  
   .redsocial {
     padding: 40px 0;
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1), 0px -1px 0px rgba(255, 255, 255, 0.1);
@@ -324,13 +313,11 @@
     padding: 0 5px 0 5px;
   }
   
-  
-  
   .footer  {
     background: #333E47;
     color: rgba(255, 255, 255, 0.2);
     font-size: 13px;
-    padding: 40px 0 40px 0;
+    padding: 20px 0 40px 0;
     text-align: center;
   }
   
@@ -338,7 +325,6 @@
   .box {
     padding: 90px 20px;
   }
-  
   
   .box img {
     border-radius: 50%;
@@ -357,7 +343,6 @@
   .equipo p {
     color: #353535;
   }
-  
   
   @media only screen and (min-width: 450px) {
     .box {
@@ -390,7 +375,6 @@
       margin-bottom: 20px;
     }
 
-
     .margenenlaces {
       padding: 30px 120px 30px 120px;
       margin: 0 30px 0 30px;
@@ -407,12 +391,10 @@
       color: #fff;
     }
 
-
     .slide__data p {
       font-size: 25px;
       padding-bottom: 120px;
     }
-
 
     .slide__title {
       font-size: 60px;
@@ -420,11 +402,6 @@
       margin-top: 150px;
       margin-bottom: 20px;
     }
-
-
-
-
-
 
 
 
