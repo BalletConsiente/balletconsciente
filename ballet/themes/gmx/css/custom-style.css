@@ -231,7 +231,6 @@ ul.links.inline li {
 }
 
 /*footerwidget*/
-
 .footerwidget {
   background: #2e2e2e;
   color: #D0D0D0;
@@ -260,6 +259,8 @@ ul.links.inline li {
 
 .logogobierno img {
   margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 /*bottom-widgets*/
