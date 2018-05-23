@@ -601,3 +601,35 @@ a.has-submenu {
 .sub-arrow {
 	display: none;
 }
+
+/* /galeria ... Pager related stuff */
+.views-slideshow-controls-bottom {
+  background: #333131;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.next {
+float: right;
+position: relative;
+top: -70px;
+padding-right: 35px;
+}
+
+.prev {
+float: left;
+position: relative;
+top: -70px;
+padding-left: 0px;
+}
+.pager li > a, .pager li > span {
+display: inline-block;
+padding: 0 35px 0 0;
+background-color: transparent;
+border: none;
+border-radius: 0;
+}
+
+.pager li > a:hover, .pager li > span {
+background-color: transparent;
+}

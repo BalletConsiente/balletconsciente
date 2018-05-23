@@ -73,26 +73,6 @@
     font-size: 16.5px;
     line-height: 1.7em;
   }
-  
-  .views-slideshow-controls-bottom {
-    background: #333131;
-    width: 100%;
-    padding: 0 100px;
-  }
-
-.next {
-  float: right;
-  position: relative;
-  top: -70px;
-  padding-right: 35px;
-}
-
-.prev {
-  float: left;
-  position: relative;
-  top: -70px;
-  padding-left: 0px;
-}
 
   .proyectorow {
     background: #FAC046;
