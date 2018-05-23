@@ -633,3 +633,15 @@ border-radius: 0;
 .pager li > a:hover, .pager li > span {
 background-color: transparent;
 }
+
+.pager {
+  display: none;
+}
+
+.flexslider {
+  margin: 0;
+}
+
+#block-views-block-videos-block-2 {
+  margin-top: 60px;
+}
