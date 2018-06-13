@@ -9,7 +9,7 @@
         "drupal/backup_migrate": "^4.0",
         "drupal/colorbox": "^1.4",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.5",
+        "drupal/core": "8.5.4",
         "drupal/features": "^3.7",
         "drupal/field_group": "^1.0",
         "drupal/fitvids": "^1.0",
