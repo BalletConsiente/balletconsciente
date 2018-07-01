@@ -81,6 +81,7 @@
   content: "\f09a";
 }
 
+
 /* START: CLEARFIX */
 /* IMPORTANTE: Inserta un "clearfix" en todos los Wrapper divs de Bricks con la clase grupo */
 .grupo:after {
@@ -195,6 +196,7 @@ div.off-canvas-wrapper {
   display: none;
 }
 
+
 a {
   color: #FFA500;
 }
@@ -214,6 +216,8 @@ ul.links.inline {
 ul.links.inline li {
   list-style: none;
 }
+
+
 
 /*Banner*/
 .welcome-banner-text-one {
@@ -302,7 +306,9 @@ ul.links.inline li {
 .credit-link{
   text-align: left;
 }
-
+.footer a {
+  color: rgba(255, 255, 255, 0.2);
+}
 /*SOCIAL MEDIA*/
 .rs ul li {
     list-style-type: none;
