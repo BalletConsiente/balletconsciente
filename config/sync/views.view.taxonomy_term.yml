@@ -13,7 +13,7 @@ _core:
 id: taxonomy_term
 label: 'Término de taxonomía'
 module: taxonomy
-description: 'Contenido perteneciente a determinado término de taxonomía.'
+description: 'Contenido perteneciente a un término de taxonomía determinado.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -106,7 +106,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: Todo
+            title: Todo(s)
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed

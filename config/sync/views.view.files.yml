@@ -466,7 +466,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Fecha del último cambio'
+          label: 'Fecha de modificación'
           exclude: false
           alter:
             alter_text: false
@@ -1028,7 +1028,7 @@ display:
           exception:
             value: all
             title_enable: false
-            title: Todo
+            title: Todo(s)
           title_enable: true
           title: 'Información de uso del fichero para {{ arguments.fid }}'
           default_argument_type: fixed

@@ -433,7 +433,7 @@ display:
           settings:
             format: custom
             format_custom_true: Publicado
-            format_custom_false: 'No publicado'
+            format_custom_false: 'Sin publicar'
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -687,7 +687,7 @@ display:
                 operator: '='
                 value: '1'
               2:
-                title: 'No publicado'
+                title: 'Sin publicar'
                 operator: '='
                 value: '0'
           plugin_id: boolean
