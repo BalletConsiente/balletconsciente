@@ -1,0 +1,19 @@
+uuid: 13e4bb63-d12c-4e7a-b232-c857cfe8cc55
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo_ballet_a
+    - node.type.home
+id: node.home.field_titulo_ballet_a
+field_name: field_titulo_ballet_a
+entity_type: node
+bundle: home
+label: 'Título Ballet A'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

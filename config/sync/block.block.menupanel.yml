@@ -1,0 +1,40 @@
+uuid: f4c5d66a-158d-46ff-a2cf-73233b18052f
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:705a3acf-4453-44f5-9011-f581696e466d'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - gmx
+id: menupanel
+theme: gmx
+region: panel
+weight: -18
+provider: null
+plugin: 'block_content:705a3acf-4453-44f5-9011-f581696e466d'
+settings:
+  id: 'block_content:705a3acf-4453-44f5-9011-f581696e466d'
+  label: 'Menú panel'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /panel
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

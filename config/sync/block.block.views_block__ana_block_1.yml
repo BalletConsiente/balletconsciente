@@ -1,0 +1,30 @@
+uuid: cb6b21ab-9d3a-4230-9ca3-9fe4464c9bdb
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.ana
+  module:
+    - system
+    - views
+  theme:
+    - gmx
+id: views_block__ana_block_1
+theme: gmx
+region: content
+weight: -15
+provider: null
+plugin: 'views_block:ana-block_1'
+settings:
+  id: 'views_block:ana-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /ana
+    negate: false
+    context_mapping: {  }

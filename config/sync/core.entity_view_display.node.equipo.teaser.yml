@@ -1,0 +1,45 @@
+uuid: 01950ecb-0dbc-4dcb-92b9-9d42db85c27e
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.equipo.field_ana_manriquez_kajisa
+    - field.field.node.equipo.field_foto_ana_manriquez_kajisa
+    - field.field.node.equipo.field_foto_javiera_iturra_bastia
+    - field.field.node.equipo.field_foto_juan_brunstein
+    - field.field.node.equipo.field_foto_leslie_apablaza_schmi
+    - field.field.node.equipo.field_javiera_iturra_bastias
+    - field.field.node.equipo.field_juan_brunstein
+    - field.field.node.equipo.field_leslie_apablaza_schmidt
+    - field.field.node.equipo.field_nombre_ana
+    - field.field.node.equipo.field_nombre_javiera
+    - field.field.node.equipo.field_nombre_juan
+    - field.field.node.equipo.field_nombre_leslie
+    - node.type.equipo
+  module:
+    - user
+id: node.equipo.teaser
+targetEntityType: node
+bundle: equipo
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ana_manriquez_kajisa: true
+  field_foto_ana_manriquez_kajisa: true
+  field_foto_javiera_iturra_bastia: true
+  field_foto_juan_brunstein: true
+  field_foto_leslie_apablaza_schmi: true
+  field_javiera_iturra_bastias: true
+  field_juan_brunstein: true
+  field_leslie_apablaza_schmidt: true
+  field_nombre_ana: true
+  field_nombre_javiera: true
+  field_nombre_juan: true
+  field_nombre_leslie: true
+  langcode: true

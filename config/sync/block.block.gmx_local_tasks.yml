@@ -1,0 +1,22 @@
+uuid: 6dd90114-c2e9-4a20-936c-2f4b5a24e644
+langcode: es
+status: true
+dependencies:
+  theme:
+    - gmx
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gmx_local_tasks
+theme: gmx
+region: messages
+weight: -19
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

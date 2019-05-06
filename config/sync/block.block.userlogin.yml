@@ -1,0 +1,26 @@
+uuid: 2c8ff099-6e47-4c6b-9838-d8ca7f4f6cb7
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+    - user
+  theme:
+    - gmx
+id: userlogin
+theme: gmx
+region: panel
+weight: -19
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Iniciar sesión'
+  provider: user
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /panel
+    negate: false
+    context_mapping: {  }

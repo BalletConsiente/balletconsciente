@@ -1,0 +1,30 @@
+uuid: b00b2391-1db9-49cc-8df0-5cfde8d0a290
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.gallery
+  module:
+    - system
+    - views
+  theme:
+    - gmx
+id: views_block__gallery_block_6
+theme: gmx
+region: content
+weight: -17
+provider: null
+plugin: 'views_block:gallery-block_6'
+settings:
+  id: 'views_block:gallery-block_6'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /galeria
+    negate: false
+    context_mapping: {  }

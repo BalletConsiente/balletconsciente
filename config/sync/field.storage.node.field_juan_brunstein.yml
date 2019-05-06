@@ -1,0 +1,19 @@
+uuid: bb7e5e71-3446-474a-9100-272f35500371
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_juan_brunstein
+field_name: field_juan_brunstein
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

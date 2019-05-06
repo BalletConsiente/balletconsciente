@@ -1,0 +1,21 @@
+uuid: 46aca09c-a685-4c2c-9e38-0e64e7ffea6a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.ana
+  module:
+    - text
+id: node.ana.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: ana
+label: Descripción
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

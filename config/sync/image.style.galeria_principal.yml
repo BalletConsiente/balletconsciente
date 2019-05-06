@@ -1,0 +1,15 @@
+uuid: dc37d3cf-14c3-4c8d-92f7-a101a2667cbd
+langcode: es
+status: true
+dependencies: {  }
+name: galeria_principal
+label: 'Galería principal'
+effects:
+  e52367bd-6505-4b33-af5a-44ac2e6146de:
+    uuid: e52367bd-6505-4b33-af5a-44ac2e6146de
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 450
+      anchor: center-center

@@ -1,0 +1,32 @@
+uuid: b349b3d3-7b19-4f1e-bfb1-bf5e27151768
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formulario
+    - node.type.contacto
+    - webform.webform.contact
+  module:
+    - webform
+id: node.contacto.field_formulario
+field_name: field_formulario
+entity_type: node
+bundle: contacto
+label: Formulario
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 78787943-e0d2-4ab6-9e1d-d65c3fb3074e
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

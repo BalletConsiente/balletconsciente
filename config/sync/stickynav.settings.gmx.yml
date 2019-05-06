@@ -1,0 +1,5 @@
+enabled: true
+selector: '#stick'
+offset: ''
+custom_offset: null
+roles: {  }

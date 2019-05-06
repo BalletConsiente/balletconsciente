@@ -1,0 +1,18 @@
+uuid: 53d122a9-0885-4914-af68-6b271515b468
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panel
+id: node.panel.title
+field_name: title
+entity_type: node
+bundle: panel
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

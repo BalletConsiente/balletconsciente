@@ -1,0 +1,24 @@
+uuid: 8119a757-99e9-4402-b0c7-0ab68d518a05
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.ana.field_descripcion
+    - field.field.node.ana.field_image
+    - node.type.ana
+  module:
+    - user
+id: node.ana.default
+targetEntityType: node
+bundle: ana
+mode: default
+content:
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_descripcion: true
+  field_image: true
+  langcode: true

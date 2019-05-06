@@ -1,0 +1,17 @@
+uuid: 23b65dc6-a55f-4ffe-9391-d1a9af33cdaa
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Panel
+type: panel
+description: 'Panel de control del sitio'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

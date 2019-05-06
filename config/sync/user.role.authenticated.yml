@@ -1,0 +1,36 @@
+uuid: 0eefc6f1-d3c2-4363-8bfd-fe8f690679eb
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Usuario autenticado'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'create galeria content'
+  - 'create noticia content'
+  - 'create video content'
+  - 'delete any galeria content'
+  - 'delete any noticia content'
+  - 'delete any video content'
+  - 'edit any ana content'
+  - 'edit any contacto content'
+  - 'edit any equipo content'
+  - 'edit any galeria content'
+  - 'edit any home content'
+  - 'edit any noticia content'
+  - 'edit any page content'
+  - 'edit any slider content'
+  - 'edit any video content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view the administration theme'

@@ -1,0 +1,41 @@
+uuid: d84cfbe1-b4c5-442a-86d8-99cc99979d58
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.noticia.body
+    - field.field.node.noticia.field_image
+    - image.style.slider
+    - node.type.noticia
+  module:
+    - image
+    - text
+    - user
+id: node.noticia.default
+targetEntityType: node
+bundle: noticia
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: slider
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

@@ -1,0 +1,49 @@
+uuid: 695ab431-0311-43e3-8b6e-45e79612d38e
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.home.field_ana
+    - field.field.node.home.field_ballet_a
+    - field.field.node.home.field_ballet_b
+    - field.field.node.home.field_ballet_c
+    - field.field.node.home.field_descripcion_ballet_a
+    - field.field.node.home.field_descripcion_ballet_b
+    - field.field.node.home.field_descripcion_ballet_c
+    - field.field.node.home.field_descripcion_logo
+    - field.field.node.home.field_image
+    - field.field.node.home.field_logo_gobierno
+    - field.field.node.home.field_pie_de_pagina
+    - field.field.node.home.field_titulo_ballet_a
+    - field.field.node.home.field_titulo_ballet_b
+    - field.field.node.home.field_titulo_ballet_c
+    - node.type.home
+  module:
+    - user
+id: node.home.teaser
+targetEntityType: node
+bundle: home
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_ana: true
+  field_ballet_a: true
+  field_ballet_b: true
+  field_ballet_c: true
+  field_descripcion_ballet_a: true
+  field_descripcion_ballet_b: true
+  field_descripcion_ballet_c: true
+  field_descripcion_logo: true
+  field_image: true
+  field_logo_gobierno: true
+  field_pie_de_pagina: true
+  field_titulo_ballet_a: true
+  field_titulo_ballet_b: true
+  field_titulo_ballet_c: true
+  langcode: true

@@ -1,0 +1,21 @@
+uuid: 9306a043-58bb-4f2a-9757-6ccdc28e46df
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_juan_brunstein
+    - node.type.equipo
+  module:
+    - text
+id: node.equipo.field_juan_brunstein
+field_name: field_juan_brunstein
+entity_type: node
+bundle: equipo
+label: 'Juan Brunstein'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

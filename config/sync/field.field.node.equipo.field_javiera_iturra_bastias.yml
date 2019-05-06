@@ -1,0 +1,21 @@
+uuid: 19e4a3c6-90be-4c46-b5c5-e4e610c463f7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_javiera_iturra_bastias
+    - node.type.equipo
+  module:
+    - text
+id: node.equipo.field_javiera_iturra_bastias
+field_name: field_javiera_iturra_bastias
+entity_type: node
+bundle: equipo
+label: 'Javiera Iturra Bastías'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

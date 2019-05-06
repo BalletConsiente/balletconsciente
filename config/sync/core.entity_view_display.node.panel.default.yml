@@ -1,0 +1,20 @@
+uuid: 0760034a-0acd-48c1-a0db-1d45ccc6f927
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.panel
+  module:
+    - user
+id: node.panel.default
+targetEntityType: node
+bundle: panel
+mode: default
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

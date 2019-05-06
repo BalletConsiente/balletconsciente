@@ -1,0 +1,18 @@
+uuid: ca9c0ddf-efdb-4799-91c4-641b689e7329
+langcode: es
+status: true
+dependencies:
+  theme:
+    - gmx
+id: pagetitle
+theme: gmx
+region: contactotitle
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

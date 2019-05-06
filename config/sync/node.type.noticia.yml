@@ -1,0 +1,17 @@
+uuid: 37bd4a9d-7cc6-4da4-847e-9917d6502457
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Noticia
+type: noticia
+description: 'Noticias del sitio'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: true

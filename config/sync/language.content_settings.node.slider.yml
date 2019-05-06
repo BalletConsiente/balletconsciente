@@ -1,0 +1,13 @@
+uuid: e3897d5b-2d14-4d43-bc08-29530b417fc7
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.slider
+_core:
+  default_config_hash: Z391pSQJdiChdz6gebG0bPFqRygbzGjNEfcOrBNYFXI
+id: node.slider
+target_entity_type_id: node
+target_bundle: slider
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+uuid: 203258b3-0ac3-4b31-8f00-72410cfc06b6
+langcode: es
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - gmx
+id: responsivemenumobileicon
+theme: gmx
+region: menu
+weight: -9
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  provider: responsive_menu
+  label_display: '0'
+visibility: {  }

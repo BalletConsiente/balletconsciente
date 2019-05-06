@@ -1,0 +1,21 @@
+uuid: d3b57cb6-4ea4-4bbd-a0d5-e6d9c65ca4e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_ballet_b
+    - node.type.home
+  module:
+    - text
+id: node.home.field_descripcion_ballet_b
+field_name: field_descripcion_ballet_b
+entity_type: node
+bundle: home
+label: 'Descripción Ballet B'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

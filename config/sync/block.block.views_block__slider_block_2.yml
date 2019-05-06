@@ -1,0 +1,39 @@
+uuid: 9826ad69-4f7d-45ec-8b38-317ff69e736a
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - system
+    - user
+    - views
+  theme:
+    - gmx
+id: views_block__slider_block_2
+theme: gmx
+region: panel
+weight: -17
+provider: null
+plugin: 'views_block:slider-block_2'
+settings:
+  id: 'views_block:slider-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /panel
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

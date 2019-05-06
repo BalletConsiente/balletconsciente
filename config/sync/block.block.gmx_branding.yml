@@ -1,0 +1,25 @@
+uuid: e0defa24-c1bb-427d-ad56-d0af1bb3ed39
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gmx
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: gmx_branding
+theme: gmx
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

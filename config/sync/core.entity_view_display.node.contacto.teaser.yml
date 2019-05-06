@@ -1,0 +1,31 @@
+uuid: 930f7d68-32e4-4379-af15-4b7387f5783f
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.contacto.field_correo_electronico
+    - field.field.node.contacto.field_descripcion
+    - field.field.node.contacto.field_direccion
+    - field.field.node.contacto.field_formulario
+    - field.field.node.contacto.field_telefono
+    - node.type.contacto
+  module:
+    - user
+id: node.contacto.teaser
+targetEntityType: node
+bundle: contacto
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_correo_electronico: true
+  field_descripcion: true
+  field_direccion: true
+  field_formulario: true
+  field_telefono: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: f10cd584-6b01-4b55-8c6a-36b8e74566f2
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gmx
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: gmx_breadcrumbs
+theme: gmx
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

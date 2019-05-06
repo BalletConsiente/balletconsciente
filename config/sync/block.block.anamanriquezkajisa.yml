@@ -1,0 +1,31 @@
+uuid: 6feee4aa-6fc7-4871-a7e2-fe2ec70accce
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:db1908c3-2521-4d99-b1b5-9efe3804aa69'
+  module:
+    - block_content
+    - system
+  theme:
+    - gmx
+id: anamanriquezkajisa
+theme: gmx
+region: ana
+weight: 0
+provider: null
+plugin: 'block_content:db1908c3-2521-4d99-b1b5-9efe3804aa69'
+settings:
+  id: 'block_content:db1908c3-2521-4d99-b1b5-9efe3804aa69'
+  label: 'Ana Manriquez Kajisa'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
