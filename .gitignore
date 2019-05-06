@@ -11,7 +11,7 @@
 /ballet/sites/*/settings.local.php
 /private/
 # Ignore Drupal's file directory
-/ballet/sites/*/files/
+# /ballet/sites/*/files/
 
 # Ignore SimpleTest multi-site environment.
 /ballet/sites/simpletest
